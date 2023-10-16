@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="css/calcSimples.css"/>
+    <script src="js/calcSimples.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Calculadora Simples</h1>
+        </header>
+        <div id="calculadora">
+            <input type="number" id="n1"/>
+            <select id="operadores">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="x">x</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="n2"/>
+            <input id="btn-calcular" type="button" value="calcular" onclick="calcular()"/>
+            <p>Resultado: <span id="resultado"></span></p>
+        </div>
+        <footer>
+            <p>Feito por <a id="creator" href="#">Matheus de Oliveira</a></p>
+        </footer>
+    </main>
+</body>
+</html>
